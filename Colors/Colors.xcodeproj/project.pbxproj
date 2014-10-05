@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3449813C19E12A660069995F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3449813B19E12A660069995F /* Colors.swift */; };
 		349C18DE19580C7500AAE49A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C18DD19580C7500AAE49A /* AppDelegate.swift */; };
 		349C18E119580C7500AAE49A /* Colors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 349C18DF19580C7500AAE49A /* Colors.xcdatamodeld */; };
 		349C18E319580C7500AAE49A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C18E219580C7500AAE49A /* MasterViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3449813B19E12A660069995F /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		349C18D819580C7500AAE49A /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349C18DC19580C7500AAE49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		349C18DD19580C7500AAE49A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		349C18DA19580C7500AAE49A /* Colors */ = {
 			isa = PBXGroup;
 			children = (
+				3449813B19E12A660069995F /* Colors.swift */,
 				349C18DD19580C7500AAE49A /* AppDelegate.swift */,
 				349C18E219580C7500AAE49A /* MasterViewController.swift */,
 				349C18E419580C7500AAE49A /* DetailViewController.swift */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				349C18DE19580C7500AAE49A /* AppDelegate.swift in Sources */,
+				3449813C19E12A660069995F /* Colors.swift in Sources */,
 				349C18E119580C7500AAE49A /* Colors.xcdatamodeld in Sources */,
 				349C18E319580C7500AAE49A /* MasterViewController.swift in Sources */,
 				349C18E519580C7500AAE49A /* DetailViewController.swift in Sources */,
@@ -407,6 +411,7 @@
 				349C18FB19580C7600AAE49A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		349C18FC19580C7600AAE49A /* Build configuration list for PBXNativeTarget "ColorsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				349C18FE19580C7600AAE49A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
