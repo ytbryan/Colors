@@ -39,7 +39,7 @@ extension UIColor {
             alpha: ((alpha)/255.0))
     }
     
-
+  
     
     //Additional colors
     class var redColor: UIColor {

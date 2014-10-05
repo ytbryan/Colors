@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3449813C19E12A660069995F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3449813B19E12A660069995F /* Colors.swift */; };
+		348BD36219E13A4600217E62 /* MaterialColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348BD36119E13A4600217E62 /* MaterialColors.swift */; };
 		349C18DE19580C7500AAE49A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C18DD19580C7500AAE49A /* AppDelegate.swift */; };
 		349C18E119580C7500AAE49A /* Colors.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 349C18DF19580C7500AAE49A /* Colors.xcdatamodeld */; };
 		349C18E319580C7500AAE49A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C18E219580C7500AAE49A /* MasterViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		3449813B19E12A660069995F /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		348BD36119E13A4600217E62 /* MaterialColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialColors.swift; sourceTree = "<group>"; };
 		349C18D819580C7500AAE49A /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		349C18DC19580C7500AAE49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		349C18DD19580C7500AAE49A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		349C18DA19580C7500AAE49A /* Colors */ = {
 			isa = PBXGroup;
 			children = (
+				348BD36119E13A4600217E62 /* MaterialColors.swift */,
 				3449813B19E12A660069995F /* Colors.swift */,
 				349C18DD19580C7500AAE49A /* AppDelegate.swift */,
 				349C18E219580C7500AAE49A /* MasterViewController.swift */,
@@ -217,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348BD36219E13A4600217E62 /* MaterialColors.swift in Sources */,
 				349C18DE19580C7500AAE49A /* AppDelegate.swift in Sources */,
 				3449813C19E12A660069995F /* Colors.swift in Sources */,
 				349C18E119580C7500AAE49A /* Colors.xcdatamodeld in Sources */,
