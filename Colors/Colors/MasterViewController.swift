@@ -15,13 +15,6 @@ class MasterViewController: UITableViewController {
     var objects = NSMutableArray()
     var number:Int = 3
     
-    var _line = __LINE__
-    var _file = __FILE__
-    var _column = __COLUMN__
-    var _function = __FUNCTION__
-    
-    var webView: UIWebView
-
     override func awakeFromNib() {
         super.awakeFromNib()
         if UIDevice.currentDevice().userInterfaceIdiom == .Pad {
@@ -33,11 +26,6 @@ class MasterViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        webView.
-        webView.frame = CGRectMake(0, 0, 100, 100)
-        webView.loadHTMLString("<h1>HI</h1>", baseURL: nil)
-        
-
         let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "insertNewObject:")
         self.navigationItem.rightBarButtonItem = addButton
         if let split = self.splitViewController {
@@ -52,8 +40,6 @@ class MasterViewController: UITableViewController {
     }
 
     func insertNewObject(sender: AnyObject) {
-        Time.now
-        S.inspect(Time.now)
         objects.insertObject(NSDate.date(), atIndex: 0)
         let indexPath = NSIndexPath(forRow: 3, inSection: 0)
         self.tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
@@ -64,27 +50,27 @@ class MasterViewController: UITableViewController {
         puts("\(value)")
         switch(value){
         case 0:
-            return ("CGFlatTealColor", UIColor.CGFlatTealColor)
+            return ("CGFlatTeal", UIColor.CGFlatTeal)
         case 1:
-            return ("CGFlatPurpleColor", UIColor.CGFlatPurpleColor)
+            return ("CGFlatPurple", UIColor.CGFlatPurple)
         case 2:
-            return ("CGFlatDarkWhiteColor",UIColor.CGFlatDarkWhiteColor)
+            return ("CGFlatDarkWhite",UIColor.CGFlatDarkWhite)
         case 3:
-            return ("CGFlatDarkRedColor",UIColor.CGFlatDarkRedColor)
+            return ("CGFlatDarkRed",UIColor.CGFlatDarkRed)
         case 4:
-            return ("CGFlatDarkYellowColor",UIColor.CGFlatDarkYellowColor)
+            return ("CGFlatDarkYellow",UIColor.CGFlatDarkYellow)
         case 5:
-            return ("CGFlatYellowColor",UIColor.CGFlatYellowColor)
+            return ("CGFlatYellow",UIColor.CGFlatYellow)
         case 6:
-            return ("CGFlatDarkGreenColor", UIColor.CGFlatDarkGreenColor)
+            return ("CGFlatDarkGreen", UIColor.CGFlatDarkGreen)
         case 7:
-            return ("CGFlatBlueColor",UIColor.CGFlatBlueColor)
+            return ("CGFlatBlue",UIColor.CGFlatBlue)
         case 8:
-            return ("CGFlatDarkGreenColor",UIColor.CGFlatDarkGreenColor)
+            return ("CGFlatDark",UIColor.CGFlatDarkGreen)
         case 9:
-            return ("CGFlatDarkOrangeColor", UIColor.CGFlatDarkOrangeColor)
+            return ("CGFlatDarkOrange", UIColor.CGFlatDarkOrange)
         default:
-            return ("CGFlatGrayColor", UIColor.CGFlatGrayColor)
+            return ("CGFlatGray", UIColor.CGFlatGray)
         }
     }
 
@@ -120,19 +106,19 @@ class MasterViewController: UITableViewController {
         if (indexPath.row == 0) {
             cell.textLabel?.text = "RGB( ) RGBA( ) and more"
             cell.textLabel?.textColor = UIColor.whiteColor()
-            cell.layer.backgroundColor = UIColor.CGFlatDarkTealColor
+            cell.layer.backgroundColor = UIColor.CGFlatDarkTeal
             cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         }
         else if(indexPath.row == 1) {
-            cell.textLabel?.text = "Basic"
+            cell.textLabel?.text = "Basic Colors"
             cell.textLabel?.textColor = UIColor.whiteColor()
-            cell.layer.backgroundColor = UIColor.CGFlatBlueColor
+            cell.layer.backgroundColor = UIColor.CGFlatBlue
             cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         }
         else if(indexPath.row == 2) {
-            cell.textLabel?.text = "Material Color"
+            cell.textLabel?.text = "Material Colors"
             cell.textLabel?.textColor = UIColor.whiteColor()
-            cell.layer.backgroundColor = UIColor.CGFlatTealColor
+            cell.layer.backgroundColor = UIColor.CGFlatTeal
             cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         }
         else {
