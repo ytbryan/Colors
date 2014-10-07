@@ -2,6 +2,8 @@ Colors
 ===========
 generate UIColor/CGColorRef by copying and pasting RGB code in swift project.
 
+![demo](gif/demo.gif)
+
 ```swift
 let color = UIColor.RGB(0xEB79BC) #pink
 let color = UIColor.RGB(0x51E0BF) #green
