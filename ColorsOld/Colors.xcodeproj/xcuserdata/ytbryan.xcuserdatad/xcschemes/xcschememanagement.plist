@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Colors 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Colors.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>34E41F6A19E25E950031D95B</key>
+		<key>349C18D719580C7500AAE49A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>34E41F8119E25E950031D95B</key>
+		<key>349C18EE19580C7600AAE49A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

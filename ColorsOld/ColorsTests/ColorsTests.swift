@@ -2,11 +2,10 @@
 //  ColorsTests.swift
 //  ColorsTests
 //
-//  Created by Bryan Lim on 10/6/14.
+//  Created by Bryan Lim on 6/23/14.
 //  Copyright (c) 2014 TADA. All rights reserved.
 //
 
-import UIKit
 import XCTest
 
 class ColorsTests: XCTestCase {
