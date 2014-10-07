@@ -39,188 +39,187 @@ extension UIColor {
             alpha: ((alpha)/255.0))
     }
     
-  
+    
     
     //Additional colors
-    class var redColor: UIColor {
+    class var red: UIColor {
     return RGB(0xE74C3C)
     }
     
-    class var blueColor: UIColor {
+    class var blue: UIColor {
     return RGB(0x3498DB)
     }
     
-    class var flatRedColor: UIColor{
+    class var flatRed: UIColor{
     return RGB(0xE74C3C)
     }
     
-    class var flatDarkRedColor: UIColor{
+    class var flatDarkRed: UIColor{
     return RGB(0xC0392B)
     }
     
-    class var flatGreenColor: UIColor{
+    class var flatGreen: UIColor{
     return RGB(0x2ECC71)
     }
     
-    class var flatDarkGreenColor: UIColor{
+    class var flatDarkGreen: UIColor{
     return RGB(0x27AE60)
     }
     
-    class var flatBlueColor: UIColor{
+    class var flatBlue: UIColor{
     return RGB(0x3498DB)
     }
     
-    class var flatDarkBlueColor: UIColor{
+    class var flatDarkBlue: UIColor{
     return RGB(0x2980B9)
     }
     
-    class var flatTealColor: UIColor{
+    class var flatTeal: UIColor{
     return RGB(0x1ABC9C)
     }
     
-    class var flatDarkTealColor: UIColor{
+    class var flatDarkTeal: UIColor{
     return RGB(0x16A085)
     }
     
-    class var flatPurpleColor: UIColor{
+    class var flatPurple: UIColor{
     return RGB(0x9B59B6)
     }
     
-    class var flatDarkPurpleColor: UIColor{
+    class var flatDarkPurple: UIColor{
     return RGB(0x8E44AD)
     }
     
     
-    class var flatYellowColor: UIColor{
+    class var flatYellow: UIColor{
     return RGB(0xF1C40F)
     }
     
-    class var flatDarkYellowColor: UIColor{
+    class var flatDarkYellow: UIColor{
     return RGB(0xF39C12)
     }
     
-    class var flatOrangeColor: UIColor{
+    class var flatOrange: UIColor{
     return RGB(0xE67E22)
     }
     
-    class var flatDarkOrangeColor: UIColor{
+    class var flatDarkOrange: UIColor{
     return RGB(0xD35400)
     }
     
-    class var flatGrayColor: UIColor{
+    class var flatGray: UIColor{
     return RGB(0x95A5A6)
     }
     
-    class var flatDarkGrayColor: UIColor{
+    class var flatDarkGray: UIColor{
     return RGB(0x7F8C8D)
     }
     
-    class var flatWhiteColor: UIColor{
+    class var flatWhite: UIColor{
     return RGB(0xECF0F1)
     }
     
-    class var flatDarkWhiteColor: UIColor{
+    class var flatDarkWhite: UIColor{
     return RGB(0xBDC3C7)
     }
     
-    class var flatBlackColor: UIColor{
+    class var flatBlack: UIColor{
     return RGB(0x34495E)
     }
     
-    class var flatDarkBlackColor: UIColor{
+    class var flatDarkBlack: UIColor{
     return RGB(0x2C3E50)
     }
     
     //CGColor
-    class var CGRedColor: CGColorRef {
+    class var CGRed: CGColorRef {
     return RGB(0xE74C3C).CGColor
     }
     
-    class var CGBlueColor: CGColorRef {
+    class var CGBlue: CGColorRef {
     return RGB(0x3498DB).CGColor
     }
     
-    class var CGFlatRedColor: CGColorRef{
+    class var CGFlatRed: CGColorRef{
     return RGB(0xE74C3C).CGColor
     }
     
-    class var CGFlatDarkRedColor: CGColorRef{
+    class var CGFlatDarkRed: CGColorRef{
     return RGB(0xC0392B).CGColor
     }
     
-    class var CGFlatGreenColor: CGColorRef{
+    class var CGFlatGreen: CGColorRef{
     return RGB(0x2ECC71).CGColor
     }
     
-    class var CGFlatDarkGreenColor: CGColorRef{
+    class var CGFlatDarkGreen: CGColorRef{
     return RGB(0x27AE60).CGColor
     }
     
-    class var CGFlatBlueColor: CGColorRef{
+    class var CGFlatBlue: CGColorRef{
     return RGB(0x3498DB).CGColor
     }
     
-    class var CGFlatDarkBlueColor: CGColorRef{
+    class var CGFlatDarkBlue: CGColorRef{
     return RGB(0x2980B9).CGColor
     }
     
-    class var CGFlatTealColor: CGColorRef{
+    class var CGFlatTeal: CGColorRef{
     return RGB(0x1ABC9C).CGColor
     }
     
-    class var CGFlatDarkTealColor: CGColorRef{
+    class var CGFlatDarkTeal: CGColorRef{
     return RGB(0x16A085).CGColor
     }
     
-    class var CGFlatPurpleColor: CGColorRef{
+    class var CGFlatPurple: CGColorRef{
     return RGB(0x9B59B6).CGColor
     }
     
-    class var CGFlatDarkPurpleColor: CGColorRef{
+    class var CGFlatDarkPurple: CGColorRef{
     return RGB(0x8E44AD).CGColor
     }
     
     
-    class var CGFlatYellowColor: CGColorRef{
+    class var CGFlatYellow: CGColorRef{
     return RGB(0xF1C40F).CGColor
     }
     
-    class var CGFlatDarkYellowColor: CGColorRef{
+    class var CGFlatDarkYellow: CGColorRef{
     return RGB(0xF39C12).CGColor
     }
     
-    class var CGFlatOrangeColor: CGColorRef{
+    class var CGFlatOrange: CGColorRef{
     return RGB(0xE67E22).CGColor
     }
     
-    class var CGFlatDarkOrangeColor: CGColorRef{
+    class var CGFlatDarkOrange: CGColorRef{
     return RGB(0xD35400).CGColor
     }
     
-    class var CGFlatGrayColor: CGColorRef{
+    class var CGFlatGray: CGColorRef{
     return RGB(0x95A5A6).CGColor
     }
     
-    class var CGFlatDarkGrayColor: CGColorRef{
+    class var CGFlatDarkGray: CGColorRef{
     return RGB(0x7F8C8D).CGColor
     }
     
-    class var CGFlatWhiteColor: CGColorRef{
+    class var CGFlatWhite: CGColorRef{
     return RGB(0xECF0F1).CGColor
     }
     
-    class var CGFlatDarkWhiteColor: CGColorRef{
+    class var CGFlatDarkWhite: CGColorRef{
     return RGB(0xBDC3C7).CGColor
     }
     
-    class var CGFlatBlackColor: CGColorRef{
+    class var CGFlatBlack: CGColorRef{
     return RGB(0x34495E).CGColor
     }
     
-    class var CGFlatDarkBlackColor: CGColorRef{
+    class var CGFlatDarkBlack: CGColorRef{
     return RGB(0x2C3E50).CGColor
     }
     
     
 }
-

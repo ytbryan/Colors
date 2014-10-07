@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		34E41F7119E25E950031D95B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E41F7019E25E950031D95B /* AppDelegate.swift */; };
-		34E41F7319E25E950031D95B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E41F7219E25E950031D95B /* MasterViewController.swift */; };
 		34E41F7519E25E950031D95B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E41F7419E25E950031D95B /* DetailViewController.swift */; };
 		34E41F7819E25E950031D95B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E41F7619E25E950031D95B /* Main.storyboard */; };
 		34E41F7A19E25E950031D95B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E41F7919E25E950031D95B /* Images.xcassets */; };
@@ -16,6 +15,7 @@
 		34E41F8919E25E950031D95B /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E41F8819E25E950031D95B /* ColorsTests.swift */; };
 		34E41F9319E261A40031D95B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E41F9219E261A40031D95B /* Colors.swift */; };
 		34E41F9519E261AD0031D95B /* MaterialColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E41F9419E261AD0031D95B /* MaterialColors.swift */; };
+		34EA3ED819E436C4004A5417 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EA3ED719E436C4004A5417 /* MasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,6 @@
 		34E41F6B19E25E950031D95B /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E41F6F19E25E950031D95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34E41F7019E25E950031D95B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34E41F7219E25E950031D95B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		34E41F7419E25E950031D95B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		34E41F7719E25E950031D95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34E41F7919E25E950031D95B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		34E41F8819E25E950031D95B /* ColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTests.swift; sourceTree = "<group>"; };
 		34E41F9219E261A40031D95B /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		34E41F9419E261AD0031D95B /* MaterialColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialColors.swift; sourceTree = "<group>"; };
+		34EA3ED719E436C4004A5417 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 				34E41F9419E261AD0031D95B /* MaterialColors.swift */,
 				34E41F9219E261A40031D95B /* Colors.swift */,
 				34E41F7019E25E950031D95B /* AppDelegate.swift */,
-				34E41F7219E25E950031D95B /* MasterViewController.swift */,
+				34EA3ED719E436C4004A5417 /* MasterViewController.swift */,
 				34E41F7419E25E950031D95B /* DetailViewController.swift */,
 				34E41F7619E25E950031D95B /* Main.storyboard */,
 				34E41F7919E25E950031D95B /* Images.xcassets */,
@@ -221,9 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34EA3ED819E436C4004A5417 /* MasterViewController.swift in Sources */,
 				34E41F7519E25E950031D95B /* DetailViewController.swift in Sources */,
 				34E41F9319E261A40031D95B /* Colors.swift in Sources */,
-				34E41F7319E25E950031D95B /* MasterViewController.swift in Sources */,
 				34E41F9519E261AD0031D95B /* MaterialColors.swift in Sources */,
 				34E41F7119E25E950031D95B /* AppDelegate.swift in Sources */,
 			);
@@ -419,6 +419,7 @@
 				34E41F8E19E25E950031D95B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34E41F8F19E25E950031D95B /* Build configuration list for PBXNativeTarget "ColorsTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +428,7 @@
 				34E41F9119E25E950031D95B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

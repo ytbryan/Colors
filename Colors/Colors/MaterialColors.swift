@@ -71,53 +71,109 @@ extension UIColor {
     return RGB(0xe00032)
     }
     
+    class var CGRed50: CGColorRef {
+    return RGB(0xfde0dc).CGColor
+    }
+    
+    class var CGRed100: CGColorRef {
+    return RGB(0xf9bdbb).CGColor
+    }
+    
+    class var CGRed200: CGColorRef {
+    return RGB(0xf69988).CGColor
+    }
+    
+    class var CGRed300: CGColorRef {
+    return RGB(0xf36c60).CGColor
+    }
+    
+    class var CGRed400: CGColorRef {
+    return RGB(0xe84e40).CGColor
+    }
+    
+    class var CGRed500: CGColorRef {
+    return RGB(0xe51c23).CGColor
+    }
+    
+    class var CGRed600: CGColorRef {
+    return RGB(0xdd191d).CGColor
+    }
+    
+    class var CGRed700: CGColorRef {
+    return RGB(0xd01716).CGColor
+    }
+    
+    class var CGRed800: CGColorRef {
+    return RGB(0xc41411).CGColor
+    }
+    
+    class var CGRed900: CGColorRef {
+    return RGB(0xb0120a).CGColor
+    }
+    
+    class var CGRedA100: CGColorRef {
+    return RGB(0xff7997).CGColor
+    }
+    
+    class var CGRedA200: CGColorRef {
+    return RGB(0xff5177).CGColor
+    }
+    
+    class var CGRedA400: CGColorRef {
+    return RGB(0xff2d6f).CGColor
+    }
+    
+    class var CGRedA700: CGColorRef {
+    return RGB(0xe00032).CGColor
+    }
+    
     //orange
     class var pink50: UIColor {
-    return RGB(0xfde0dc)
+    return RGB(0xfce4ec)
     }
     
     class var pink100: UIColor {
-    return RGB(0xf9bdbb)
+    return RGB(0xf8bbd0)
     }
     
     class var pink200: UIColor {
-    return RGB(0xf69988)
+    return RGB(0xf48fb1)
     }
     
     class var pink300: UIColor {
-    return RGB(0xf36c60)
+    return RGB(0xf06292)
     }
     
     class var pink400: UIColor {
-    return RGB(0xe84e40)
+    return RGB(0xec407a)
     }
     
     class var pink500: UIColor {
-    return RGB(0xe51c23)
+    return RGB(0xe91e63)
     }
     
     class var pink600: UIColor {
-    return RGB(0xdd191d)
+    return RGB(0xd81b60)
     }
     
     class var pink700: UIColor {
-    return RGB(0xd01716)
+    return RGB(0xc2185b)
     }
     
     class var pink800: UIColor {
-    return RGB(0xc41411)
+    return RGB(0xad1457)
     }
     
     class var pink900: UIColor {
-    return RGB(0xb0120a)
+    return RGB(0x880e4f)
     }
     
     class var pinkA100: UIColor {
-    return RGB(0xff7997)
+    return RGB(0xff80ab)
     }
     
     class var pinkA200: UIColor {
-    return RGB(0xff5177)
+    return RGB(0xff4081)
     }
     
     class var pinkA400: UIColor {
@@ -241,7 +297,7 @@ extension UIColor {
     class var deepPurpleA700: UIColor {
     return RGB(0xe00032)
     }
-
+    
     
     //Indigo
     class var indigo50: UIColor {
@@ -356,7 +412,7 @@ extension UIColor {
     class var blueA700: UIColor {
     return RGB(0xe00032)
     }
-
+    
     //light blue
     class var lightBlue50: UIColor {
     return RGB(0xfde0dc)
@@ -415,8 +471,8 @@ extension UIColor {
     }
     
     //cyan
-
-   class var cyan50: UIColor {
+    
+    class var cyan50: UIColor {
     return RGB(0xfde0dc)
     }
     
@@ -529,7 +585,7 @@ extension UIColor {
     class var tealA700: UIColor {
     return RGB(0xe00032)
     }
-
+    
     
     //Green
     //Pink
@@ -589,7 +645,7 @@ extension UIColor {
     class var greenA700: UIColor {
     return RGB(0xe00032)
     }
-
+    
     //Pink
     class var lightGreen50: UIColor {
     return RGB(0xfde0dc)
@@ -646,7 +702,7 @@ extension UIColor {
     class var lightGreenA700: UIColor {
     return RGB(0xe00032)
     }
-
+    
     //lime
     class var lime50: UIColor {
     return RGB(0xfde0dc)
@@ -817,7 +873,7 @@ extension UIColor {
     class var amberA700: UIColor {
     return RGB(0xe00032)
     }
-
+    
     //orange
     class var orange50: UIColor {
     return RGB(0xfde0dc)
@@ -931,7 +987,7 @@ extension UIColor {
     class var deepOrangeA700: UIColor {
     return RGB(0xe00032)
     }
-
+    
     //brown
     class var brown50: UIColor {
     return RGB(0xfde0dc)
@@ -1046,7 +1102,7 @@ extension UIColor {
     return RGB(0xe00032)
     }
     
-   //blueGrey
+    //blueGrey
     class var blueGrey50: UIColor {
     return RGB(0xfde0dc)
     }
