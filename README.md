@@ -13,9 +13,9 @@ let color = UIColor.RGBA(0x51E0BF, 0.9) #green
 let color = UIColor.RGBA(0x5183E0, 0.7) #blue
 
 #return CGColorRef
-let color = UIColor.CGRGB(0xEB79BC, 0.8) #pink
-let color = UIColor.CGRGB(0x51E0BF, 0.9) #green
-let color = UIColor.CGRGB(0x5183E0, 0.7) #blue
+let color = UIColor.CGRGB(0xEB79BC, 0.8) #pink in CGColorRef
+let color = UIColor.CGRGB(0x51E0BF, 0.9) #green in CGColorRef
+let color = UIColor.CGRGB(0x5183E0, 0.7) #blue in CGColorRef
 
 #CGColorRef with alpha
 let color = UIColor.CGRGBA(0xEB79BC, 0.8) #pink
@@ -29,15 +29,16 @@ Simply drag the Colors.swift file into your swift project.
 ###pre-defined colors
 
 ```swift
-let color1 = UIColor.flatRedColor
-let color2 = UIColor.flatGreenColor
-let color3 = UIColor.flatDarkBlueColor
+let color1 = UIColor.flatRed
+let color2 = UIColor.flatGreen
+let color3 = UIColor.flatDarkBlue
 
 #return CGColorRef
-let color4 = UIColor.CGflatRedColor
-let color5 = UIColor.CGflatGreenColor
-let color6 = UIColor.CGflatDarkBlueColor
+let color4 = UIColor.CGflatRed
+let color5 = UIColor.CGflatGreen
+let color6 = UIColor.CGflatDarkBlue
 
+#note that material colors aren't completed
 #from google's material design color palatte
 let color7 = UIColor.pink50 #fce4ec
 let color8 = UIColor.pink100 #f8bbd0
